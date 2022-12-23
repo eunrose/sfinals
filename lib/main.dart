@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:sqflite1/home_page.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MaterialApp(
     debugShowCheckedModeBanner: false,
-    theme: ThemeData(),
-    title: "Sqflite",
-    home: const (),
+    home:  HomePage(),
   ));
 }
